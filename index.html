@@ -15,7 +15,7 @@
 	<meta name="apple-mobile-web-app-title" content="Macro Deck">
 	<meta name="msapplication-TileColor" content="#454545">
 	<meta name="theme-color" content="#454545">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#454545">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="msapplication-config" content="browserconfig.xml?v=210703071156">
 	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png?v=210703071156">
 	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png?v=210703071156">
@@ -64,24 +64,7 @@
 
 </head>
 	<body id="body" onload="" class="bg-dark">
-		<button class="btn btn-danger d-none" id="btn-back" onclick="back()">Back</button>
-		<button class="btn btn-success" id="btn-fullscreen" onclick="openFullscreen()">Fullscreen</button>
-		<button class="btn btn-success" id="btn-dark" onclick="toggleDark()">Light</button>
 		<div class="connect-container container-fluid animate__animated animate__fadeIn" id="connect-container">
-			<div class="text-center text-w m-3">
-				<div class="text-center p-0 m-0">
-					<div class="row justify-content-md-center container-fluid">
-					  <div class="col col-sm">
-						<a href="https://macrodeck.org/imprint" class="text-w" target="_blank">Imprint</a>
-						|
-						<a href="https://macrodeck.org/privacy" class="text-w" target="_blank">Privacy statement</a>
-						|
-						<a href="https://macrodeck.org/termsofuse" class="text-w" target="_blank">Terms of use</a>
-					  </div>
-					  
-					</div>
-				</div>
-			</div>
 			<div class="row justify-content-center align-self-center text-center">
 				<div class="col">
 					<img id="logo" class="mb-0" src="images/logo.png" alt="" width="300" height="60">
@@ -131,29 +114,12 @@
 		</div>
 	
 		<div class="button-container" id="button-container"></div>
-    
-		<div id="cookiealert-modal" data-backdrop="static" data-keyboard="false" class="modal fade" tabindex="-1" role="dialog">
-		  <div class="modal-dialog" role="document">
-			<div class="modal-content bg-dark">
-			  <div class="modal-header text-dark">
-				<h5 class="modal-title">Cookies &#x1F36A;</h5>
-			  </div>
-			  <div class="modal-body text-dark">
-				<p>We care about privacy! This website uses only technically necessary cookies.</p>
-				<a href="https://cookiesandyou.com/" target="_blank">Learn more about cookies</a>
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-primary acceptcookies">Close</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
+
 	
 	
 
 
 		<script src="js/bootstrap.js"></script>
 		<script src="js/client.js"></script>
-		<script src="js/cookiealert.js"></script>
 	</body>
 </html>
