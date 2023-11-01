@@ -1,5 +1,5 @@
 # Macro Deck Web Client for Macro Deck 2
-
+## Forked version with added pwa capabilities for ios
 
 <img height="64px" src="https://macrodeck.org/images/works_with_macrodeck2.png" />
 
